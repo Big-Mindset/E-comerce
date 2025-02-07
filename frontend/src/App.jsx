@@ -23,7 +23,7 @@ function App() {
   useEffect(() => {
     getUserData()
   }, [getUserData])
-  
+  console.log(import.meta.env.MODE)
   
   return (
     <>
